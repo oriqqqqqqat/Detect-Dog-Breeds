@@ -1,0 +1,13 @@
+path: D:/YOLO/data
+train: D:/YOLO/data/images/train
+val: D:/YOLO/data/images/val
+
+nc: 6
+names: ['Beagle', 'bullDog', 'corgi', 'goldenRetriever', 'husky', 'pomeranian']
+
+# roboflow:
+#   workspace: cv-project-v2
+#   project: 6-dog-breeds
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/cv-project-v2/6-dog-breeds/dataset/1
