@@ -4,7 +4,7 @@ from PIL import Image
 import io, base64
 
 app = Flask(__name__)
-model = YOLO(r"D:/YOLO/data/runs/detect/train/weights/best.pt")  # ปรับ path ตามเครื่องคุณ
+model = YOLO("runs/detect/train/weights/best.pt")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
